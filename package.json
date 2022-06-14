@@ -4,6 +4,7 @@
   "description": "First Project MERN for development",
   "main": "index.js",
   "scripts": {
+    "start:local": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,8 +19,5 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.16"
   }
 }
