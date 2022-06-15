@@ -12,7 +12,7 @@ const port = process.env.PORT || 8000;
 // Define the first route of the application
 app.get('/', (req: Request, res: Response) => {
     // Send Hello Word
-    res.send('Welocome to App Express + TS + Swagger + Mongoose');
+    res.send('Welcome to App Express + TS + Swagger + Mongoose');
 });
 
 // Execute the application and listen to Request from PORT
